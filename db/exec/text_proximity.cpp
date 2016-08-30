@@ -338,7 +338,7 @@ void TextProximityStage::collectResults() {
     }
 
     // sort the entire working set and process runs of common RecordIds
-    std::sort(_posv.begin(), _posv.end(), proximitySort);
+    //std::sort(_posv.begin(), _posv.end(), proximitySort);
 
     std::vector<TextRecordData>::const_iterator it2 = _posv.begin();
 

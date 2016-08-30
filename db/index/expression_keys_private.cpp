@@ -316,7 +316,7 @@ void ExpressionKeysPrivate::getFTSKeys(const BSONObj& obj,
 }
 
 // static
-// @@@prox : add variant to pass through loc to key generator
+// @@@proximity : add variant to pass through loc to key generator
 void ExpressionKeysPrivate::getFTSKeys2(const BSONObj& obj,
                                         const fts::FTSSpec& ftsSpec,
                                         const RecordId& loc,

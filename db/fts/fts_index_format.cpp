@@ -171,7 +171,7 @@ void FTSIndexFormat::getKeys(
     BSONObjSet* keys)
 {
     if (spec.proximityIndex()) {
-        getKeysProximity(spec, obj, keys);
+        getKeysProximity2(spec, obj, keys);
         return;
     }
 
