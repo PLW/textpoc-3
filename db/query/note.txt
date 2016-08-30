@@ -1,0 +1,11 @@
+Phase I.
+  1. attach to collection catalog
+  2. command to generate index
+  3. command to query the index
+  4. command to update index
+
+Phase II.
+  Hook into storage interfaces
+
+
+

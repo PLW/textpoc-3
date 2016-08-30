@@ -1,0 +1,31 @@
+Disabling Spotlight
+Launch Terminal and type the following:
+
+sudo nano /etc/hostconfig
+
+Navigate using the arrow keys down the following entry:
+SPOTLIGHT=-YES-
+Change
+  SPOTLIGHT=-YES-
+to
+  SPOTLIGHT=-NO-
+
+Save /etc/hostconfig by hitting Control-O and the return key,
+next hit Control-X to exit the nano editor
+
+Next, you’ll want to disable the index by typing the following in the Terminal:
+  mdutil -i off /
+And to erase the current Spotlight index, type:
+  mdutil -E /
+That’s pretty much it, on your next reboot, Spotlight will be completely disabled.
+
+Re-Enable Spotlight
+If you want to enable Spotlight again, follow the same steps as above, but change
+  SPOTLIGHT=-NO-
+to
+  SPOTLIGHT=-YES-
+and then type
+  mdutil -i on /
+in the Terminal
+
+Reboot, and Spotlight is back as usual

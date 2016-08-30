@@ -1,0 +1,6 @@
+342000 @ .98 = 335160
+approx. 864840 tax @ 8.68 FMV
+approx. .2948 x 864840 = 254959 tax @ 3.25 FMV
+total exercise + tax on 342000      = 335160 + 254959 = 590119 
+total exercise (all) + tax (342000) = 387100 + 254959 = 642059
+
